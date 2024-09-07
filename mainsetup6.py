@@ -18,7 +18,7 @@ import os
 keep_alive()
 
 twitch_miner = TwitchChannelPointsMiner(
-    username="cratosdense",
+    username="doomvastly",
     password="Deniskoto0711",           # If no password will be provided, the script will ask interactively
     claim_drops_startup=False,                  # If you want to auto claim all drops from Twitch inventory on the startup
     priority=[                                  # Custom priority in this case for example:
@@ -52,7 +52,7 @@ twitch_miner = TwitchChannelPointsMiner(
             disable_notification=True,                                              # Revoke the notification (sound/vibration)
         ),
         discord=Discord(
-            webhook_api="https://discord.com/api/webhooks/1282056374968123434/58_NNcztHkUZKKF-Qv1exYN90cHYLv8Lnr2GZKjN6zg6gAzyPVo0RHCFdRmCqBOJjSbn",  # Discord Webhook URL
+            webhook_api="https://discord.com/api/webhooks/1282056063075614720/3sGKplt2npesU2uds26jUu6aE1m69NG0_IlR0skHr6PU_JQygCD5XhiBq-MInqST7mwz",  # Discord Webhook URL
             events=[Events.STREAMER_ONLINE, Events.STREAMER_OFFLINE,
                     Events.BET_LOSE, Events.CHAT_MENTION],                                  # Only these events will be sent to the chat
         ),
